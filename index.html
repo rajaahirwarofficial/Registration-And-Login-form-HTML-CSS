@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The King</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+ <header>
+ 	<div class="navbar">
+ 		<ul>
+ 			<li><a href="#">Home</a></li>
+ 			<li><a href="#">Download</a></li>
+ 			<li><a href="#">Contact</a></li>
+ 			<li><a href="#">About</a></li>
+ 		</ul>
+ 		<h2>Alpha Ethical Hack</h2>
+ 	</div>
+ 	<div class="loginbox" id="">
+ 		<div id="loginlogo"><h2>LogIn</h2></div>
+ 		<form method="post" action="login.php" >
+ 			<center><input type="text" name="email" class="email" placeholder="Email or Phone" required=""></center>
+ 			<center><input type="password" name="password" class="password" placeholder="Password" required=""></center>
+ 			<input type="submit" name="submit" value="LogIn" class="submit">
+ 		</form>
+
+ 		<div class="createaccount" onclick="openForm()"><h3>Create Account</h3></div>
+    </div>
+    <div class="form-popup" id="myForm">
+       <button type="button" class="btncancel" onclick="closeForm()">X</button>
+          <h2>Registration</h2>
+        <center><input type="text" name="name" class="Registration-input" placeholder="Name" required=""></center>
+        <center><input type="email" name="email" class="Registration-input" placeholder="Email" required=""></center>
+        <center><input type="text" name="mobile" class="Registration-input" placeholder="Mobile Number" required=""></center>
+        <center><input type="password" name="password1" class="Registration-input" placeholder="Password" required=""></center>    
+        <center><input type="password" name="password2" class="Registration-input" placeholder="Conform Password" required=""></center>   
+        <center><input type="submit" name="submit" value="Registration" class="Registrationbtn"></center> 
+       </div>
+        <!-- Github Help  ( う-´)づ︻╦̵̵̿╤── \(˚☐˚”)/ -->
+ 		<script>
+          function openForm() {
+           document.getElementById("myForm").style.display = "block";
+          }
+
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+        </script>
+
+        <!-- Github Script Of Java  (｡♥‿♥｡)-->
+ </header>
+ <div class="buttomline">
+ 		<div class="buttomline1">
+ 			<div class="Policy">
+ 		     <ul>
+ 		 	   <li><a href="#">Support</a></li>|
+ 		 	   <li><a href="#">Career</a></li>|
+ 		 	   <li><a href="#">Policy</a></li>|
+ 		 	   <li><a href="#">Terms & Conditions</a></li>
+ 		     </ul>
+ 		     </div>
+ 		     <div class="socialicon">
+ 		        <ul>
+ 		 	       <li><a href="https://www.facebook.com" target="blank"><img src="images/facebook.png"></a></li>
+ 		 	       <li><a href="https://www.instagram.com" target="blank"><img src="images/instagram.png"></a></li>
+ 		 	       <li><a href="https://www.twitter.com" target="blank"><img src="images/twitter.png"></a></li>
+ 		 	       <li><a href="https://www.linkedin.com" target="blank"><img src="images/linkedin.png"></a></li>
+ 		        </ul>
+ 		     </div>
+        </div>
+ </div>
+</body>
+</html>
